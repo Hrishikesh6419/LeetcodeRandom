@@ -92,6 +92,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             @Override
                             public void onError(Throwable e) {
 
+                                Toast.makeText(getApplicationContext(), "Please turn on your internet", Toast.LENGTH_SHORT).show();
+
                             }
                         }));
 
